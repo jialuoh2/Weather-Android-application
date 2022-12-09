@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyFirstApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@style/MyActionBarDarkStyle</item>
+    </style>
+
+    <style name="PrimaryText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="SecondaryText" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="MyActionBarDarkStyle" parent="Widget.MaterialComponents.ActionBar.Primary">
+        <item name="background">@color/grey</item>
+    </style>
+
+</resources>

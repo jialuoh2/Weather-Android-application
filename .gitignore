@@ -1,0 +1,10 @@
+.gradle/
+.idea/
+app/.idea/
+app/build/
+local.properties
+android/local.properties
+.android/local.properties
+
+## .gitignore for mac os x
+.DS_Store
